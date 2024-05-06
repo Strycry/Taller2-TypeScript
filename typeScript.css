@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=B612');
+
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: #DDEEEE;
+    margin-top: 1%;
+}
+
+body {
+    font-family: "B612";
+    font-size: 18px;
+  }
+#card {
+    
+    margin-top:10%;
+    margin-bottom:1%;
+}
+#header{
+    background-color: #123;
+    display: flex;
+}

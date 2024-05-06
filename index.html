@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Container con Dos Columnas</title>
+    <!-- Enlaza Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script type="module" src='./scripts/main.js'></script>
+    <link rel ="stylesheet" href="typeScript.css">
+    
+</head>
+<header id="header">
+            <h3> TV Series</h3>
+</header>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <h1>Tabla</h1>
+                <table class="table table-bordered" id ="series">
+                    <thead class="thead-dark"> 
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Channel</th>
+                            <th>Seasons</th>
+                        </tr>
+                    </thead>
+            
+                </table>
+            </div>
+            <div class="col-8" id="card" style="max-height: 500px;">
+               
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <p id="averageSeasons">  </p>
+            </div>
+
+        </div>
+    </div>
+
+    
+    
+    
+</body>
+</html>
